@@ -12,7 +12,7 @@ def home(name=None):
 
 @app.route('/end_result')
 def end_result(name=None):
-    return render_template('end_result.html', name=name)
+    #return render_template('end_result.html', name=name)
     #write gravatar url to end_result.html when request is received
 
 if __name__ == '__main__':
