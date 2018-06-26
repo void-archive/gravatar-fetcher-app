@@ -8,3 +8,5 @@ Contributions are always accepted, big or small. I really need the help right no
 
 # License
 [MIT](https://github.com/ry0id/smol-gravatar-app/blob/master/LICENSE)
+
+test
