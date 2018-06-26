@@ -10,10 +10,12 @@ app = Flask(__name__)
 def home(name=None):
     return render_template('index.html', name=name)
 
+"""
 @app.route('/end_result')
 def end_result(name=None):
     #return render_template('end_result.html', name=name)
     #write gravatar url to end_result.html when request is received
+"""
 
 if __name__ == '__main__':
     app.run(port=8080)
