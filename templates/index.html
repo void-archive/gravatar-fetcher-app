@@ -1,0 +1,32 @@
+<!-- 
+  Authored by void (@ry0id)
+  Licensed under MIT
+-->
+
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>
+            Gravatar Fetcher
+        </title>
+        <script>
+           //null here, needs fixing
+           let submitter = document.getElementById('submitter');
+
+           submitter
+           .addEventListener('click', () => 
+              window.location.replace('http://127.0.0.1:8080/end_result.html')
+              //how2 redirect in html am i doing it correctly - unsure
+              .document.write('Test'));
+        </script>
+    </head>
+    <body>
+        <form>
+            <div id="required text-box">
+                <input type="text" pattern="[A-Z|a-z|0-9|@|.]+" required />
+            </div>
+            <br /><br />
+            <input id="submitter" type="submit" value="Done?" />
+        </form>
+    </body>
+</html>
