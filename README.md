@@ -11,3 +11,5 @@ Run `python -m pip install -r requirements.txt` and then `py app.py` and go to t
 
 # License
 [MIT](https://github.com/ry0id/smol-gravatar-app/blob/master/LICENSE)
+
+test
