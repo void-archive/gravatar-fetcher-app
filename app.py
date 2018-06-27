@@ -7,13 +7,13 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def home(name=None):
-    return render_template('index.html', name=name)
+def home():
+    return render_template('index.html')
 
 """
 @app.route('/end_result')
-def end_result(name=None):
-    #return render_template('end_result.html', name=name)
+def end_result():
+    #return render_template('end_result.html')
     #write gravatar url to end_result.html when request is received
 """
 
