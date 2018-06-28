@@ -16,7 +16,7 @@ Link to all releases:
 </a>
 
 Link to latest release:  
-<a href="https://github.com/ry0id/smol-gravatar-app/releases/tag/0.0.1" target="_blank">
+<a href="https://github.com/ry0id/smol-gravatar-app/releases/tag/0.0.2" target="_blank">
   <img src="https://awau.moe/14aae9.png" alt="Link to latest release + a cool image!" />
 </a>
 
