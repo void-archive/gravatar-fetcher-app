@@ -10,11 +10,14 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
 """
 @app.route('/end_result')
 def end_result():
-    #return render_template('end_result.html')
-    #write gravatar url to end_result.html when request is received
+    g = Gravatar(html_element.textbox.value) # This kind of thing
 """
 
 if __name__ == '__main__':

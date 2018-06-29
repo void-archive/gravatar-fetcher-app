@@ -9,15 +9,20 @@
         <title>
             Gravatar Fetcher
         </title>
-        <script>
-           //submitter is null according to console, needs to be fixed
-           let submitter = document.getElementById('submitter');
+        <script async>
+            window
+            .addEventListener('load', (event) => {
+                console.log('Everything has finished loading!');
+            }); 
+            
+            // Tried changing variable name, still null. Added event loader, still null. High priority bug. Possible high-bounty for anyone who can fix it ;)
+            let pressMePls = document.getElementById('submitter');
 
-           submitter
-           .addEventListener('click', () => 
-              //proper way to redirect in client-side javascript?
-              window.location.replace('http://127.0.0.1:8080/end_result.html')
-              .document.write('Test'));
+            pressMePls
+            .addEventListener('click', () => { 
+                window.location.replace('http://127.0.0.1:8080/end_result')
+                .document.write('Test');
+            }); 
         </script>
     </head>
     <body>
@@ -26,9 +31,9 @@
                 <input type="text" pattern="[A-Z|a-z|0-9|@|.]+" required />
             </div>
             <br />
-            <input id="submitter" type="submit" value="Done?" />
+            <input id="submitter" type="submit" value="Press when done..." />
         </form>
         <br /><br />
-        <a href="contact.html">Contact me!</a>
+        <a href="contact">Contact me!</a>
     </body>
 </html>
