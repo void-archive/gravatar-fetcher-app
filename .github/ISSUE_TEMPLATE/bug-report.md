@@ -9,9 +9,9 @@ Give a clear + concise description of the problem you're experiencing.
 
 **To reproduce**<br />
 Steps to reproduce the behavior:<br />
-    - Go to [x]
-    - Click on [x]
-    - Scroll down to [x]
+    - Go to [x]<br />
+    - Click on [x]<br />
+    - Scroll down to [x]<br />
     - See an error
 
 **Expected behavior**<br />
@@ -21,14 +21,14 @@ A clear + concise description of what you expected to happen.
 If applicable, add screenshots to help explain the problem you're facing.
 
 **Desktop (please complete the following information):**<br />
-    OS: (e.g. iOS)
-    Browser (e.g. Chrome, Safari)
+    OS: (e.g. iOS)<br />
+    Browser (e.g. Chrome, Safari)<br />
     Version (e.g. 22, 62.0b2)
 
 **Smartphone (please complete the following information):**<br />
-    Device: (e.g. iPhone6)
-    OS: (e.g. iOS8.1)
-    Browser (e.g. Stock browser, Safari)
+    Device: (e.g. iPhone6)<br />
+    OS: (e.g. iOS8.1)<br />
+    Browser (e.g. Stock browser, Safari)<br />
     Version (e.g. 22, 62.0b2)
 
 **Additional context**<br />
