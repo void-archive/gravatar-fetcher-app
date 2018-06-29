@@ -27,7 +27,7 @@ Link to latest release:
 -->
 
 # License
-[MIT](https://github.com/ry0id/smol-gravatar-app/blob/master/LICENSE)
+[MIT](https://github.com/ry0id/gravatar-fetcher-app/blob/master/LICENSE)
 
 # Notes from developer
 Before you go crazy on the frontend of the application; yes, it's like that on purpose.  
