@@ -1,4 +1,4 @@
-# Authored by void (@ry0id)
+# Authored by void (@missingbinaries)
 # Licensed under MIT
 
 from libgravatar import Gravatar
