@@ -10,7 +10,7 @@ All contributions and feature requests and/or bug reports are accepted and very 
 
 ## Setup
 
-Run `python -m pip install -r requirements.txt` and then `py app.py` and go to the URL that's returned (should be `127.0.0.1` with port `8080` since this is being done locally). Will release website once everything's fixed + working because it's not as of time of writing.
+Run `python -m pip install -r requirements.txt` and then `py app.py` and go to the URL that's returned (should be `127.0.0.1` with port `8080` since this is being done locally). Will release website once everything's fixed and working because it's not as of time of writing.
 
 ### Releases
 
