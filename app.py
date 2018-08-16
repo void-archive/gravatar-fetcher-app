@@ -10,12 +10,12 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/contact')
+@app.route('/contact.html')
 def contact():
     return render_template('contact.html')
 
 """
-@app.route('/end_result')
+@app.route('/end_result.html')
 def end_result():
     g = Gravatar(html_element.textbox.value) # This kind of thing
 """

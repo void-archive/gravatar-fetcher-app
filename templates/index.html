@@ -20,20 +20,25 @@
 
             pressMePls
             .addEventListener('click', () => { 
-                window.location.replace('http://127.0.0.1:8080/end_result')
+                window.location.replace('http://127.0.0.1:8080/end_result.html')
                 .document.write('Test');
             }); 
         </script>
+        <style>
+            * { 
+                font-family: 'Roboto', sans-serif;
+            }
+        </style>
     </head>
     <body>
-        <form>
-            <div id="required text-box">
-                <input type="text" pattern="[A-Z|a-z|0-9|@|.]+" required />
-            </div>
-            <br />
-            <input id="submitter" type="submit" value="Press when done..." />
-        </form>
+        <div id="required text-box">
+            <input type="text" pattern="[A-Z|a-z|0-9|@|.]+" required />
+        </div>
+        <br />
+        
+        <input id="submitter" type="submit" value="Press when done..." />
         <br /><br />
-        <a href="contact">Contact me!</a>
+
+        <a href="contact.html">Have any concerns? Contact me!</a>
     </body>
 </html>
