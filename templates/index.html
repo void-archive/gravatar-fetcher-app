@@ -10,10 +10,10 @@
             Gravatar Fetcher
         </title>
         <script async>
-            window
-            .addEventListener('load', event => {
-                console.log('Everything has finished loading!');
-            }); 
+            document
+            .addEventListener('DOMContentLoaded', event => {
+                console.log('DOM loaded and parsed!');
+            });
             
             let pressMePls = document.getElementById('submitter');
             let textBox = document.getElementById('required text-box');
