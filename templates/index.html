@@ -17,9 +17,13 @@
             
             // Tried changing variable name, still null. Added event loader, still null. High priority bug. Possible high-bounty for anyone who can fix it ;)
             let pressMePls = document.getElementById('submitter');
+            let textBox = document.getElementById('required text-box');
 
             pressMePls
-            .addEventListener('click', () => { 
+            .addEventListener('click', () => {
+                if(textBox === null || undefined) {
+                    alert('I cannot do anything with the input you have provided, please fix up your mistake(s) and try again.');
+                }    
                 window.location.replace('http://127.0.0.1:8080/end_result.html')
                 .document.write('Test');
             }); 
@@ -31,10 +35,8 @@
         </style>
     </head>
     <body>
-        <div id="required text-box">
-            <input type="text" pattern="[A-Z|a-z|0-9|@|.]+" required />
-        </div>
-        <br />
+        <input id="required text-box" type="text" pattern="[A-Z|a-z|0-9|@|.]+" required />
+        <br /><br />
         
         <input id="submitter" type="submit" value="Press when done..." />
         <br /><br />
