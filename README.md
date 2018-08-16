@@ -6,7 +6,7 @@ Uses HTML5, Flask and LibGravatar.
 
 ## Contributions
 
-Contributions are always accepted, big or small. I really need the help right now. (cc [#1](https://github.com/ry0id/smol-gravatar-app/issues/1))
+Contributions are always accepted, big or small. I really need the help right now. (cc [#1](https://github.com/missingbinaries/smol-gravatar-app/issues/1))
 
 ## Setup
 
@@ -18,21 +18,21 @@ I'm no longer using the releases page, just download the source and follow the i
 
 <!-- 
 Link to all releases:  
-<a href="https://github.com/ry0id/smol-gravatar-app/releases" target="_blank">
+<a href="https://github.com/missingbinaries/smol-gravatar-app/releases" target="_blank">
   <img src="https://awau.moe/9d9e4c.png" alt="Link to releases page + a cool image!" />
 </a>
 -->
 
 <!--
 Link to latest release:  
-<a href="https://github.com/ry0id/smol-gravatar-app/releases/tag/0.0.2" target="_blank">
+<a href="https://github.com/missingbinaries/smol-gravatar-app/releases/tag/0.0.2" target="_blank">
   <img src="https://awau.moe/14aae9.png" alt="Link to latest release + a cool image!" />
 </a>
 -->
 
 ## License
 
-[MIT](https://github.com/ry0id/gravatar-fetcher-app/blob/master/LICENSE)
+[MIT](https://github.com/missingbinaries/gravatar-fetcher-app/blob/master/LICENSE)
 
 ## Notes from developer
 
