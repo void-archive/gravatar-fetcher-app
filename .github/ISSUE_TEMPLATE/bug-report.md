@@ -4,33 +4,42 @@ about: Ran into an issue? Report it!
 
 ---
 
-**Describe the bug you've run into**<br />
-Give a clear + concise description of the problem you're experiencing.
+# Bug report
 
-**To reproduce**<br />
-Steps to reproduce the behavior:<br />
-    - Go to [x]<br />
-    - Click on [x]<br />
-    - Scroll down to [x]<br />
-    - See an error
+### Describe the bug you've run into
 
-**Expected behavior**<br />
-A clear + concise description of what you expected to happen.
+Give a clear and concise description of the problem you're experiencing.
 
-**Screenshots**<br />
+### To reproduce
+
+Steps to reproduce the behavior
+
+- Go to ...
+- Click on ...
+- Scroll down to ...
+- See an error
+
+### Expected behavior
+
+A clear and concise description of what you expected to happen.
+
+### Screenshots
+
 If applicable, add screenshots to help explain the problem you're facing.
 
-**Desktop (please complete the following information):**<br />
-    OS: (e.g. iOS)<br />
-    Browser (e.g. Chrome, Safari)<br />
-    Version (e.g. 22, 62.0b2)
+### Desktop
 
-**Smartphone (please complete the following information):**<br />
-    Device: (e.g. iPhone6)<br />
-    OS: (e.g. iOS8.1)<br />
-    Browser (e.g. Stock browser, Safari)<br />
-    Version (e.g. 22, 62.0b2)
+- OS (e.g. macOS, Windows):
+- Browser (e.g. Chrome, Safari):
+- Version (e.g. 22, 62.0b2):
 
-**Additional context**<br />
-Add any other context about the problem here.<br />
-Tip: be specific; we'll be able to help you with the problem you're facing more and both benefit from it.
+### Smartphone
+
+- Device (e.g. iPhone6):
+- OS (e.g. iOS8.1):
+- Browser (e.g. Stock browser, Safari):
+- Version (e.g. 22, 62.0b2):
+
+### Additional context
+
+Add additional context that'll help contributors better understand the problem you're facing (optional).
