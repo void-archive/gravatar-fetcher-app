@@ -6,7 +6,7 @@ Uses HTML5, Flask and LibGravatar.
 
 ## Contributions
 
-Contributions are always accepted, big or small. I really need the help right now. (cc [#1](https://github.com/missingbinaries/smol-gravatar-app/issues/1))
+All contributions and feature requests and/or bug reports are accepted and very much appreciated.
 
 ## Setup
 
