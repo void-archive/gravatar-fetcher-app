@@ -14,11 +14,9 @@ def home():
 def contact():
     return render_template('contact.html')
 
-"""
 @app.route('/end_result.html')
 def end_result():
-    g = Gravatar(html_element.textbox.value) # This kind of thing
-"""
+    print('go away')
 
 if __name__ == '__main__':
     app.run(port=8080)
