@@ -7,21 +7,6 @@
 <html>
     <head>
         <title>Gravatar Fetcher</title>
-        <script async>
-            document.addEventListener('DOMContentLoaded', event => {
-                console.log('DOM loaded and parsed!');
-            });
-            
-            let pressMePls = document.getElementById('submitter');
-            let textBox = document.getElementById('required text-box');
-
-            pressMePls.addEventListener('click', () => {
-                if(textBox === null || undefined) {
-                    alert('I cannot do anything with the input you have provided, please fix up your mistake(s) and try again.');
-                }
-                window.location.replace('http://127.0.0.1:8080/end_result.html').document.write('Test');
-            });
-        </script>
         <style>
             * {
                 font-family: 'Roboto', sans-serif;
@@ -37,4 +22,15 @@
 
         <a href="contact.html">Have any concerns? Contact me!</a>
     </body>
+    <script async>
+        let pressMePls = document.getElementById('submitter');
+        let textBox = document.getElementById('required text-box');
+
+        pressMePls.addEventListener('click', () => {
+            // if(textBox === null || undefined) {
+            //     return alert('I cannot do anything with the input you have provided, please fix up your mistake(s) and try again.');
+            // }
+            window.location.replace('http://127.0.0.1:8080/end_result.html').document.write('Test');
+        });
+    </script>
 </html>

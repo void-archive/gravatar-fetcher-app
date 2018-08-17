@@ -16,6 +16,7 @@ def contact():
 
 @app.route('/end_result.html')
 def end_result():
+    return render_template('end_result.html')
     print('go away')
 
 if __name__ == '__main__':
